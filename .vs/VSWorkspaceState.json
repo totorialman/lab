@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\lab2",
+    "\\lab2\\lab_python_oop"
   ],
-  "SelectedNode": "\\E:\\lab_pikem",
+  "SelectedNode": "\\lab2\\main.py",
   "PreviewInSolutionExplorer": false
 }
