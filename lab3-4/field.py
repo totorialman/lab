@@ -15,6 +15,8 @@ if __name__ == '__main__':
     ]
 
     for ii in field(goods, 'title'):
-        print(ii)
+        print(ii, end=' ')
+    print('\n')
     for jj in field(goods, 'title', 'price'):
-        print(jj)
+        print(jj, end=' ')
+    print('\n')

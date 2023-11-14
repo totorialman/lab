@@ -13,7 +13,6 @@ def print_result(func):
             print(result)
     return wrapper
 
-
 @print_result
 def test_1():
     return 1

@@ -25,23 +25,24 @@ class unique(object):
         return self
 if __name__ == '__main__':
     data1 = [1, 1, 1, 1, 1, 2, 2, 2, 2, 2]
-    unique_data1 = Unique(data1)
+    unique_data1 = unique(data1)
     for item in unique_data1:
-        print(item)
-
+        print(item, end=' ')
+    print('\n')
     data2 = []
     for num in gen_random(5, 1, 3):
         data2.append(num)
-    unique_data2 = Unique(data2)
+    unique_data2 = unique(data2)
     for item in unique_data2:
-        print(item)
-
+        print(item, end=' ')
+    print('\n')
     data3 = ['a', 'A', 'b', 'B', 'a', 'A', 'b', 'B']
-    unique_data3 = Unique(data3, ignore_case=True)
+    unique_data3 = unique(data3, ignore_case=True)
     for item in unique_data3:
-        print(item)
-
+        print(item, end=' ')
+    print('\n')
     data4 = ['a', 'A', 'b', 'B', 'a', 'A', 'b', 'B']
-    unique_data4 = Unique(data3)
+    unique_data4 = unique(data3)
     for item in unique_data4:
-        print(item)
+        print(item, end=' ')
+    print('\n')

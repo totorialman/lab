@@ -5,4 +5,6 @@ def gen_random(num_count, begin, end):
 
 def main():
     for num in gen_random(5, 1, 3):
-       print(num)
+       print(num, end=' ')
+    print('\n')
+#main()

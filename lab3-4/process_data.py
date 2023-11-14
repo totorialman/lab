@@ -27,7 +27,7 @@ def f3(arg):
 def f4(arg):
     for job in list(filter(lambda x: 'программист' in x, field(data, 'job-name'))):
         salary = list(gen_random(1, 100000,200000))
-        yield job + " " + str(salary[0])
+        yield job + ", зарплата " + str(salary[0]) + " руб."
 
 
 if __name__ == '__main__':
